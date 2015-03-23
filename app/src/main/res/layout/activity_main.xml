@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_insert_biasa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert Biasa"/>
+
+    <Button
+        android:id="@+id/btn_insert_bulk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert Bulk"/>
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"/>
+
+    <Button
+        android:id="@+id/btn_load_subject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Subject"/>
+
+    <Button
+        android:id="@+id/btn_load_invoice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Load Invoice"/>
+
+    <Button
+        android:id="@+id/btn_update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"/>
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time here"/>
+</LinearLayout>
